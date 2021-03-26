@@ -4,11 +4,14 @@ module.exports = {
     head: [
       ['link', { rel: 'icon', href: '/logo.png' }]
     ],
+    markdown: {
+      lineNumbers: true
+    },
     themeConfig: {
       logo: '/logo.png',
       repo: 'SK-415/HarukaBot',
       docsDir: 'docs',
-      docsBranch: 'master',
+      docsBranch: 'dev',
       editLinks: true,
       editLinkText: '在 GitHub 上编辑此页',
       lastUpdated: '上次更新',
